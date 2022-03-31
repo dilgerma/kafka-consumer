@@ -1,0 +1,8 @@
+@namespace("de.effectivetrainings")
+protocol ProductRecord {
+	record Product {
+		string name;
+		union {null, string} description = null;
+	}
+
+}

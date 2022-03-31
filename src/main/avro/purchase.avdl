@@ -1,0 +1,8 @@
+@namespace("de.effectivetrainings")
+protocol Purchase {
+	record Purchase {
+		string name;
+		float price;
+	}
+
+}
